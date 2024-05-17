@@ -1,0 +1,15 @@
+<html>
+<body>
+    <p id="demo"></p>
+    <script>
+        const person = {
+            first: "prem",
+            name : function() {
+                return this.first;
+            }
+        };
+        Document.getelementbyid("demo").innerHTML = person.name();
+    
+    </script>
+</body>
+</html>

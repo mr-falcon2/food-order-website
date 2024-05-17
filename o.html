@@ -1,0 +1,19 @@
+<html>
+
+
+<body>
+
+<script>
+    while(true){
+        let number =prompt("enter number:");
+        let random= Math.ceil(Math.random()*5);
+        if (number===random) {
+            alert("you win");
+            break;
+        }
+        else {
+            console.log("you guessed",number, "but the actual is",random);
+        }
+    }
+</script>
+</body>
